@@ -1,3 +1,6 @@
 export const GET_JSON_REQUEST = 'GET_JSON_REQUEST';
 export const GET_JSON_SUCCESS = 'GET_JSON_SUCCESS';
 export const GET_JSON_FAILURE = 'GET_JSON_FAILURE';
+
+export const FORM_NEXT_STEP = 'FORM_NEXT_STEP';
+export const FORM_PREV_STEP = 'FORM_PREV_STEP';

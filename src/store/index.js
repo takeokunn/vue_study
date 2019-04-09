@@ -9,7 +9,12 @@ Vue.use(Vuex);
 
 const state = {
     is_request: false,
-    row_data: []
+    row_data: [],
+    now_step: 1,
+    formdata: {
+        name: "fdafsa",
+        email: "",
+    }
 };
 
 export default new Vuex.Store({

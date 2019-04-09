@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState } from 'vuex';
 import { AgGridVue } from "ag-grid-vue";
 
 const column_defs = [
@@ -26,7 +26,7 @@ export default {
     data: () => ({ column_defs }),
     methods: {
         fetch() {
-            this.$store.dispatch('getJson');
+            this.$store.dispatch('get_json');
         }
     }
 }
